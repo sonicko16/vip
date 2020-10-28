@@ -1,7 +1,7 @@
 {
-	"enlace":"http://www.mediafire.com/file/pzvso40669nqljy/FA_Plus_v1.0.2.apk/file",
-	"actual":"1.0.2",
-	"mensaje":"-Zeus está de vuelta -Se corrigieron errores menores",
+	"enlace":"http://www.mediafire.com/file/ujouen9m938gmz9/FA_Plus_v1.0.3.apk/file",
+	"actual":"1.0.3",
+	"mensaje":"Nueva actualización FA Plus\n\nChangelog:\n-Debido a que muchos usuarios terminaban con una interfaz equivocada se agregó una configuración inicial.\n-Se reparón errores menores",
 	"key":"6f88c34b0a6e5f4da96032485395a0ea",
 	"obligatoria":true,
 	"deprecateds":["zplayer.live","rapidvid.to","rapidvideo.com","openload","streamango.com","verystream.com","tutumeme.net","openplay.vip","p2p.fembad.co","vadacloud.com","pelisgratis.live","youtube.com"]
