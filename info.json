@@ -1,7 +1,7 @@
 {
-	"enlace":"http://www.mediafire.com/file/1s8rpnkxoj0qv2j/FA_Plus_v1.0.5.apk/file",
-	"actual":"1.0.5",
-	"mensaje":"Hemos cambiado el id de la app por lo que deberás desinstalar la versión anterior, esto también provocará que debas realizar la configuración inicial nuevamente, lamentamos las dificultades\n\nChangelog:\n-Se reparó error en Zeus\n-Se reparó error en Turbo\n-Se reparó error que afectaba a algunos usuarios en las series",
+	"enlace":"https://www.mediafire.com/file/i7a8bmbq0c41q9b/FA_Plus_v1.0.6.apk/file",
+	"actual":"1.0.6",
+	"mensaje":"\nSi no puedes actualizar:\n1.-Presiona navegador\n2.-Descarga el apk de la actualización\n3.-Desinstala la version instalada\n4.-Instala la actualización manualmente\n\nChangelog:\n-Se corrigío error en zeus\n-Se repararon errores menores",
 	"key":"6f88c34b0a6e5f4da96032485395a0ea",
 	"obligatoria":true,
 	"deprecateds":["zplayer.live","rapidvid.to","rapidvideo.com","openload","streamango.com","verystream.com","tutumeme.net","openplay.vip","p2p.fembad.co","vadacloud.com","pelisgratis.live","youtube.com"]
