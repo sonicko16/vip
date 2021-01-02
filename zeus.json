@@ -16,9 +16,9 @@
 		"contains":"RegExp",
 		"char":"^",
 		"counts":-1,
-		"regex":"warn\\\\(e.message\\\\);\\\\}([\\\\s\\\\S]+?)\\\\}; \\\\/\\\\/end start",
-		"replace":"};\\n",
-		"to":"",
+		"regex":"warn\\(e.message\\);\\}([\\s\\S]+?)\\}; \\/\\/end start",
+		"replace":"};\n",
+		"to":" ",
 		"pre":"var fun = ",
 		"post":".toString();"
 	}
