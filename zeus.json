@@ -6,18 +6,18 @@
 	"getShh":{
 	"place":0,
 	"pre":"",
-	"post":"window.HTMLOUT.getShh(eval(fun.match('\\\\n[\\\\s\\\\S]+\\\\n')[0].replace('()','.toString()')).match('\\\\}\\n(.+?)\\'\\\\);')[0]",
+	"post":"var fun = eval(us.toString().match(',(.+?)\\\\\\\\)')[0].replace(',','').replace(')','')+'.toString()')window.HTMLOUT.getShh(eval(fun.match('\\\\n[\\\\s\\\\S]+\\\\n')[0].replace('()','.toString()')).match('\\\\}\\n(.+?)\\'\\\\);')[0]",
 	"regex":"'(.+?)'",
 	"videokey":"orig_vid = \"(.+?)\"",
 	"adb":"adbn = '(.+?)'"
 	},
 	"getEval":{
-		"method":3,
+		"method":2,
 		"contains":"RegExp",
 		"char":"^",
 		"counts":-1,
-		"regex":"4\",(.+?)\\);sho",
-		"replace":"",
+		"regex":"warn\\\\(e.message\\\\);\\\\}([\\\\s\\\\S]+?)\\\\}; \\\\/\\\\/end start",
+		"replace":"};\\n",
 		"to":"",
 		"pre":"var fun = ",
 		"post":".toString();"
