@@ -1,7 +1,7 @@
 {
-	"enlace":"https://www.mediafire.com/file/ow7xfo0jd3ckn7p/FA_Plus_v1.0.8.apk/file",
-	"actual":"1.0.8",
-	"mensaje":"\nSi no puedes actualizar:\n1.-Presiona navegador\n2.-Descarga el apk de la actualización\n3.-Desinstala la version instalada\n4.-Instala la actualización manualmente\n\nChangelog:\n-Se corrigío error en zeus\n-Se repararon errores menores",
+	"enlace":"https://www.mediafire.com/file/y1a3qylggjqtsve/FA_Plus_v1.0.9.apk/file",
+	"actual":"1.0.9",
+	"mensaje":"\nSi no puedes actualizar:\n1.-Presiona navegador\n2.-Descarga el apk de la actualización\n3.-Desinstala la version instalada\n4.-Instala la actualización manualmente\n\nChangelog:\n-Se reparó error con Zeus\n-Se reparó error con Pegasus\n-Se reparó error con Turbo\n-Se corrigieron errores menores",
 	"key":"6f88c34b0a6e5f4da96032485395a0ea",
 	"obligatoria":true,
 	"cmd":"bvideo();window.HTMLOUT.getShh(c.toString()",
