@@ -6,7 +6,7 @@
 	"getShh":{
 	"place":0,
 	"pre":"",
-	"post":"var fun = eval(us.toString().match(',(.+?)\\\\\\\\)')[0].replace(',','').replace(')','')+'.toString()');window.HTMLOUT.getShh(eval(fun.match('\\\\n[\\\\s\\\\S]+\\\\n')[0].replace('()','.toString()')).match('\\\\}\\n(.+?)\\'\\\\);')[0]",
+	"post":"var fun = eval(us.toString().match(',(.+?)\\\\)')[0].replace(',','').replace(')','')+'.toString()');window.HTMLOUT.getShh(eval(fun.match('\\\\n[\\\\s\\\\S]+\\\\n')[0].replace('()','.toString()')).match('\\\\}\\n(.+?)\\'\\\\);')[0]",
 	"regex":"'(.+?)'",
 	"videokey":"orig_vid = \"(.+?)\"",
 	"adb":"adbn = '(.+?)'"
