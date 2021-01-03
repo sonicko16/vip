@@ -12,7 +12,7 @@
 	"adb":"adbn = '(.+?)'"
 	},
 	"getEval":{
-		"method":1,
+		"method":2,
 		"contains":"RegExp",
 		"char":"^",
 		"counts":-1,
