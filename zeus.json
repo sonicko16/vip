@@ -6,7 +6,7 @@
 	"getShh":{
 	"place":0,
 	"pre":"shhh = ''; passiveSupported = true;",
-	"post":"window.HTMLOUT.getShh(shhh",
+	"post":"window.HTMLOUT.getShh('\\''+shhh+'\\''",
 	"regex":"'(.+?)'",
 	"videokey":"orig_vid = \"(.+?)\"",
 	"adb":"adbn = '(.+?)'"
