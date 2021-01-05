@@ -6,7 +6,7 @@
 	"getShh":{
 	"place":0,
 	"pre":"",
-	"post":"';window.HTMLOUT.getShh(shh",
+	"post":"\\'';window.HTMLOUT.getShh(shh",
 	"regex":"'(.+?)'",
 	"videokey":"orig_vid = \"(.+?)\"",
 	"adb":"adbn = '(.+?)'"
@@ -18,7 +18,7 @@
 		"counts":-1,
 		"regex":"= !1;\\n(.+?)'\\)",
 		"replace":"('",
-		"to":"='';shh='",
+		"to":"='';shh='\\'",
 		"pre":"",
 		"post":""
 	}
