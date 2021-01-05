@@ -16,7 +16,7 @@
 		"contains":"RegExp",
 		"char":"^",
 		"counts":-1,
-		"regex":"= !1;\\n(.+?)'\\)",
+		"regex":"console.log('vizf 1');\\n(.+?)'\\)",
 		"replace":"('",
 		"to":"='';shh='",
 		"pre":"",
