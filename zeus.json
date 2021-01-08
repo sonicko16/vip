@@ -5,8 +5,8 @@
 	},
 	"getShh":{
 	"place":0,
-	"pre":"",
-	"post":"\\'';window.HTMLOUT.getShh(shh",
+	"pre":"shh = '",
+	"post":"';window.HTMLOUT.getShh(shh",
 	"regex":"'(.+?)'",
 	"videokey":"orig_vid = \"(.+?)\"",
 	"adb":"adbn = '(.+?)'"
@@ -16,9 +16,9 @@
 		"contains":"RegExp",
 		"char":"^",
 		"counts":-1,
-		"regex":"= !1;\\n(.+?)'\\)",
-		"replace":"('",
-		"to":"='';shh='\\'",
+		"regex":"shh=\\'(.+?)\\'",
+		"replace":"",
+		"to":"",
 		"pre":"",
 		"post":""
 	}
