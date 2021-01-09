@@ -16,7 +16,7 @@
 		"contains":"RegExp",
 		"char":"^",
 		"counts":-1,
-		"regex":"shh=\\'(.+?)\\'",
+		"regex":"shh='(.+?)'",
 		"replace":"",
 		"to":"",
 		"pre":"",
