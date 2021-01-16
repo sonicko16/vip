@@ -5,8 +5,8 @@
 	},
 	"getShh":{
 	"place":0,
-	"pre":"ashh='",
-	"post":"'; loadimage(ashh",
+	"pre":"",
+	"post":"loadimage(shh",
 	"regex":"'(.+?)'",
 	"videokey":"orig_vid = \"(.+?)\"",
 	"adb":"adbn = '(.+?)'"
