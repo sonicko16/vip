@@ -12,10 +12,10 @@
 	"adb":"adbn = '(.+?)'"
 	},
 	"getEval":{
-		"method":2,
-		"contains":"RegExp",
-		"char":"^",
-		"counts":-1,
+		"method":1,
+		"contains":"ヘ",
+		"char":"ヘ",
+		"counts":4,
 		"regex":"shh='(.+?)'",
 		"replace":"",
 		"to":"",
