@@ -16,7 +16,7 @@
 		"contains":"^",
 		"char":"^",
 		"counts":4,
-		"regex":"null;\n}([\\s\\S]+?)\/\/\\(function\\(\\)\\{",
+		"regex":"null;\n\\}([\\s\\S]+?)\/\/\\(function\\(\\)\\{",
 		"replace":"",
 		"to":"",
 		"pre":"",
