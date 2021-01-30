@@ -12,11 +12,11 @@
 	"adb":"adbn = '(.+?)'"
 	},
 	"getEval":{
-		"method":1,
-		"contains":"ヘ",
-		"char":"ヘ",
+		"method":2,
+		"contains":"^",
+		"char":"^",
 		"counts":4,
-		"regex":"shh='(.+?)'",
+		"regex":"null;\n}([\\s\\S]+?)\/\/\\(function\\(\\)\\{",
 		"replace":"",
 		"to":"",
 		"pre":"",
