@@ -1,0 +1,7 @@
+{
+	"sources":"sources",
+	"name":"watchsb",
+	"value":"streamsb",
+	"object":"stream_data",
+	"file":"file"
+}
