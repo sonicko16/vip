@@ -11,7 +11,7 @@
 	"cslink":"https://raw.githubusercontent.com/sonicko16/vip/master/cuevinfo.json",
 	"turboHost":"tomatomatela",
 	"certificate":"Si",
-	"sbstreamHost":"sbplay",
+	"sbstreamHost":"sbstream",
 	"sbslink":"https://raw.githubusercontent.com/sonicko16/vip/master/sbScript.json",
 	"deprecateds":["waaw.to","waaw.tv","hqq.to","hqq.tv","netu.to","netu.tv","zplayer.live","rapidvid.to","rapidvideo.com","openload","streamango.com","verystream.com","tutumeme.net","openplay.vip","p2p.fembad.co","vadacloud.com","pelisgratis.live","youtube.com"]
 }
