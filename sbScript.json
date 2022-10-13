@@ -3,5 +3,18 @@
 	"name":"watchsb",
 	"value":"sbstream",
 	"object":"stream_data",
-	"file":"file"
+	"file":"file",
+	"preload":"",
+	"regex":"download_video\\((.+?)\\)",
+	"replace":"'",
+	"split":",",
+	"regex2":"<a href=\"(.+?)\"style=",
+	"url1":"/dl?op=download_orig&id=",
+	"url2":"&mode=",
+	"url3":"&hash=",
+	"url4":"op=download_orig&id=",
+	"url5":"&mode=",
+	"url6":"&hash=",
+	"url7":"&g-recaptcha-response=",
+	"h":[]
 }
