@@ -8,6 +8,7 @@
 	"regex":"download_video\\((.+?)\\)",
 	"replace":"'",
 	"split":",",
+	"time":"2000",
 	"regex2":"<a href=\"(.+?)\"style=",
 	"url1":"/dl?op=download_orig&id=",
 	"url2":"&mode=",
