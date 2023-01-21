@@ -12,6 +12,7 @@
 	"phlink":"https://raw.githubusercontent.com/sonicko16/hiden-content/master/API's/plushdinfo.json",
 	"turboHost":"tomatomatela",
 	"moeHost":"plusvip.net",
+	"pelisfileHost":"pelisfile.net",
 	"certificate":"Si",
 	"sbstreamHost":"sbstream",
 	"sbHostRegex":"watchsb|sbfast|streamsss|sbfull|sbembed",
