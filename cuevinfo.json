@@ -23,7 +23,7 @@
 	"server1":"url",
 	"server2":"h",
 	"server3":"url",
-	"normal":true,
+	"normal":false,
 	"replace":"details.php?v=",
 	"replace2":"embed.html#",
 	"replace3":"\\",
