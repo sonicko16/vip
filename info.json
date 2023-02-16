@@ -17,7 +17,7 @@
 	"pelisfileHost":"pelisplay.cc",
 	"certificate":"Si",
 	"sbstreamHost":"sbstream",
-	"sbHostRegex":"watchsb|sbfast|streamsss|sbfull|sbembed",
+	"sbHostRegex":"watchsb|sbfast|streamsss|sbfull|sblanh|sbplay|sbembed",
 	"sbslink":"https://raw.githubusercontent.com/sonicko16/vip/master/sbScript.json",
 	"sbM3u8":true,
 	"loadInMain":false,
