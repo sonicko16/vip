@@ -5,7 +5,7 @@
 	"html3":"';\n\t\t\tif (t!=='') {\n\t\t\t\tl = 'https://api.playhublite.com/api/v2/xxx/'+id+'-'+t+'-'+e+'?s=web';\n\t\t\t}else{\n\t\t\t\tl = 'https://api.playhublite.com/api/v2/xxx/'+id+'?s=web';\n\t\t\t}\n\t\t\twindow.HTMLOUT.processHTML(l,h,true);\n\t\t</script>\n\t</BODY>\n</HTML>",
 	"pattern":"\\{\\\"data\\\":\\\"(.+?)\\\"\\}",
 	"html4":"<HTML>\n<HEAD>\n\t<script type='text/javascript'>\n\t\tfunction b64_to_utf8(str) {\n\t\t  return decodeURIComponent(escape(window.atob(str)));\n\t\t}\n\n\t\tdata = '",
-	"html5":"';\n\t\tdata = data.replaceAll('#', 'A').replaceAll('!', 'B').replaceAll('%', 'N').replaceAll('&', 'i').replaceAll('/', 'l').replaceAll('*', 'L').replaceAll('+', 's').replaceAll('((', 'j').replaceAll('[]', '=');\n\t\tdata = b64_to_utf8(data);\n\t\tdata = data.replaceAll('embedhub.xyz\\/api\\/source\\/','fembed.com/v/');\n\n\t\twindow.HTMLOUT.processData(data);\n\t</script>\n</HEAD>\n<body>\n</body>\n</HTML>",
+	"html5":"';\n\t\tdata = data.replaceAll('#', 'A').replaceAll('!', 'B').replaceAll('%', 'N').replaceAll('&', 'i').replaceAll('/', 'l').replaceAll('*', 'L').replaceAll('+', 's').replaceAll('((', 'j').replaceAll('[]', '=');\n\t\tdata = b64_to_utf8(data);\n\t\tdata = data.replaceAll('embedhub.xyz\\\\/api\\\\/source\\\\/','fembed.com/v/');\n\n\t\twindow.HTMLOUT.processData(data);\n\t</script>\n</HEAD>\n<body>\n</body>\n</HTML>",
 	"url":"url",
 	"language":"language",
     "latino":"Latino",
