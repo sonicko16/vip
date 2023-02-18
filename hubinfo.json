@@ -1,6 +1,6 @@
 {
 	"onfinish":"",
-	"html":"<HTML>\n\t<HEAD>\n\t\t<script\n  \t        src='https://code.jquery.com/jquery-3.4.1.min.js'\n  \t        integrity='sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo='\n  \t        crossorigin='anonymous'></script>\n\t</HEAD>\n\t<BODY>\n\t\t<script type='text/javascript'>\n\t\t\th = '[{\"key\":\"origin\",\"value\":\"https://playhublite.com\"},{\"key\":\"referer\",\"value\":\"https://playhublite.com/\"},{\"key\":\"Authorization\",\"value\":\"Bearer null\"},{\"key\":\"accept-encoding\",\"value\":\"gzip, deflate, br\"}]';\n\t\t\ts = window.location.href.split('/');\n\t\t\tid = s[s.length-1];\n\t\t\tt = '",
+	"html":"<HTML>\n\t<HEAD>\n\t\t<script\n  \t        src='https://code.jquery.com/jquery-3.4.1.min.js'\n  \t        integrity='sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo='\n  \t        crossorigin='anonymous'></script>\n\t</HEAD>\n\t<BODY>\n\t\t<script type='text/javascript'>\n\t\t\th = '[{\"key\":\"origin\",\"value\":\"https://playhublite.com\"},{\"key\":\"referer\",\"value\":\"https://playhublite.com/\"},{\"key\":\"Authorization\",\"value\":\"Bearer null\"}]';\n\t\t\ts = window.location.href.split('/');\n\t\t\tid = s[s.length-1];\n\t\t\tt = '",
 	"html2":"';\n\t\t\te = '",
 	"html3":"';\n\t\t\tif (t!=='') {\n\t\t\t\tl = 'https://api.playhublite.com/api/v2/xxx/'+id+'-'+t+'-'+e+'?s=web';\n\t\t\t}else{\n\t\t\t\tl = 'https://api.playhublite.com/api/v2/xxx/'+id+'?s=web';\n\t\t\t}\n\t\t\twindow.HTMLOUT.processHTML(l,h,true);\n\t\t</script>\n\t</BODY>\n</HTML>",
 	"pattern":"\\{\\\"data\\\":\\\"(.+?)\\\"\\}",
