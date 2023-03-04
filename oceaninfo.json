@@ -1,0 +1,6 @@
+{
+	"headers":[],
+	"onfinish":"",
+	"html":"<HTML>\n<head>\n<script>\nh = '[]';\ne = '",
+	"html1":"';\ne = atob(e);\na = [...e.matchAll('<button(.+?)>')];\nlang = '';\njson = '[';\nfor(l of a){\n\tx = l[1].match('player=\"(.+?)&');\n\ty = l[1].match('lang=\"(.+?)\"');\n\tif(y!==null){\n\t\tlang = y[1];\n\t}\n\tif(x!==null){\n\t\tlink = x[1];\n\t\tlink = 'https://players.oceanplay.me' + link;\n\t\tif(link.includes('external.php')){\n\t\t\tform = link.split('?')[1];\n\t\t\tlink = 'https://players.oceanplay.me/v2/r.php';\n\t\t}else{\n\t\t\tform = '';\n\t\t}\n\t\tjson += '{\"form\":\"' + form +'\",\"language\":\"' + lang +'\",\"link\":\"' + link + '\"' + '},';\n\t}\n}\njson = json.slice(0, -1);\njson += ']';\nwindow.HTMLOUT.processHTML(json,h);\n</script>\n</head>\n<body>\n</body>\n</HTML>"
+}
