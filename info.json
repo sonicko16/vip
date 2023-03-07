@@ -1,8 +1,8 @@
 {
-	"enlace":"https://www.mediafire.com/file/vmlxhxkzxt5oxjf/FA_Plus_v1.3.2.apk/file",
-	"enlace2":"https://github.com/sonicko16/vip/raw/master/FA_Plus_v1.3.2.apk",
-	"actual":"1.3.2",
-	"mensaje":"\nSi no puedes actualizar:\n1.-Presiona navegador\n2.-Descarga el apk de la actualización\n3.-Desinstala la version instalada\n4.-Instala la actualización manualmente\n\nChangelog:\n-Se corrigío servidor Turbo.\n-Agregamos más servidores al contenido.\n-Algunos errores corregidos.",
+	"enlace":"https://www.mediafire.com/file/ldr6xs7cqjyzuhi/FA_Plus_v1.3.5.apk/file",
+	"enlace2":"https://github.com/sonicko16/vip/raw/master/FA_Plus_v1.3.5.apk",
+	"actual":"1.3.5",
+	"mensaje":"\nSi no puedes actualizar:\n1.-Presiona navegador\n2.-Descarga el apk de la actualización\n3.-Desinstala la version instalada\n4.-Instala la actualización manualmente\n\nChangelog:\n-Se corrigío error que causaba el cierre inesperado de la aplicación a algunos usuarios.\n-Se agregarón cientos de enlaces.\n-Algunos errores menores corregidos.",
 	"paquete":"com.filmlegacy.slupaf",
 	"anteriores":"com.thisislaw.randomapp",
 	"key":"6f88c34b0a6e5f4da96032485395a0ea",
