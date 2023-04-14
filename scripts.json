@@ -7,7 +7,7 @@
   ],
   "nuuuppp": [
     {
-      "pre": "<HTML>\n\t<head>\n\t\t\t<script type='text/javascript'>\n\t\t\t\th = '[{\"key\":\"origin\",\"value\":\"https://nuuuppp.cloud\"},{\"key\":\"referer\",\"value\":\"https://nuuuppp.cloud/\"}]';\n\t\t\t\tencoded = '",
+      "pre": "<HTML>\n\t<head>\n\t\t\t<script type='text/javascript'>\n\t\t\t\th = '[{\\\"key\\\":\\\"origin\\\",\\\"value\\\":\\\"https://nuuuppp.cloud\\\"},{\\\"key\\\":\\\"referer\\\",\\\"value\\\":\\\"https://nuuuppp.cloud/\\\"}]';\n\t\t\t\tencoded = '",
       "post": "';\n\t\t\t\tdecoded = window.atob(encoded);\n\t\t\t\tscript = decoded.match('<script>\\n(.+?)\\n\\t\\t  <\\/script>')[1];\n\t\t\t\tscript2 = decoded.match('<script>\\n(.+?),t=')[1]+';';\n\t\t\t\tresults = [...script2.matchAll('var(.+?)=')];\n\t\t\t\tlinkScript = 'url = ' + results[0][1] + '+\"?s=\"+' + results[1][1] + ';';\n\t\t\t\tscript3 = 'window.HTMLOUT.useget(url,h);';\n\t\t\t\tscriptcompleto = script + script2 + linkScript + script3;\n\t\t\t\teval(scriptcompleto);\n\t\t\t</script>\n\t</head>\n\t<body></body>\n</HTML>"
     },
     {
