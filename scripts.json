@@ -5,10 +5,10 @@
       "post": "';\ne = atob(e);\ne = e.match('\"file\":\"(.+?)\"')[1];\nalert(e);\nwindow.HTMLOUT.finalizar(e);\n</script>\n\n</body>\n</html>"
     }
   ],
-  "ocean": [
+  "nuuuppp": [
     {
-      "pre": "<!DOCTYPE html>\n<html>\n<body>\n\n<script>\nh = '[]';\ne = '",
-      "post": "';\ne = atob(e);\na = [...e.matchAll('<button(.+?)>')];\nlang = '';\njson = '[';\nfor(l of a){\n\tx = l[1].match('player=\"(.+?)&');\n\ty = l[1].match('lang=\"(.+?)\"');\n\tif(y!==null){\n\t\tlang = y[1];\n\t}\n\tif(x!==null){\n\t\tlink = x[1];\n\t\tlink = 'https://players.oceanplay.me' + link;\n\t\tlink = link.replace('playerdir','playdir');\n\t\tif(link.includes('external.php')){\n\t\t\tform = link.split('?')[1];\n\t\t\tlink = 'https://players.oceanplay.me/v2/r.php';\n\t\t}else{\n\t\t\tform = '';\n\t\t}\n\t\tjson += '{\"form\":\"' + form +'\",\"language\":\"' + lang +'\",\"link\":\"' + link + '\"' + '},';\n\t}\n}\njson = json.slice(0, -1);\njson += ']';\nwindow.HTMLOUT.processHTML(json,h);\n</script>\n</head>\n<body>\n</body>\n</HTML>"
+      "pre": "<HTML>\n\t<head>\n\t\t\t<script type='text/javascript'>\n\t\t\t\th = '[{\"key\":\"origin\",\"value\":\"https://nuuuppp.cloud\"},{\"key\":\"referer\",\"value\":\"https://nuuuppp.cloud/\"}]';\n\t\t\t\tencoded = '",
+      "post": "';\n\t\t\t\tdecoded = window.atob(encoded);\n\t\t\t\tscript = decoded.match('<script>\n(.+?)\n\t\t  <\/script>')[1];\n\t\t\t\tscript2 = decoded.match('<script>\n(.+?),t=')[1]+';';\n\t\t\t\tresults = [...script2.matchAll('var(.+?)=')];\n\t\t\t\tlinkScript = 'url = ' + results[0][1] + '+\"?s=\"+' + results[1][1] + ';';\n\t\t\t\tscript3 = 'window.HTMLOUT.processURL(url,h);';\n\t\t\t\tscriptcompleto = script + script2 + linkScript + script3;\n\t\t\t\teval(scriptcompleto);\n\t\t\t</script>\n\t</head>\n\t<body></body>\n</HTML>"
     }
   ]
 }
