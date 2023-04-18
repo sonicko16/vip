@@ -2,7 +2,11 @@
   "moe": [
     {
       "pre": "<!DOCTYPE html>\n<html>\n<body>\n\n<script>\nh = '[]';\ne = '",
-      "post": "';\ne = atob(e);\ne = e.match('\"file\":\"(.+?)\"')[1];\nalert(e);\nwindow.HTMLOUT.finalizar(e);\n</script>\n\n</body>\n</html>"
+      "post": "';\ne = atob(e);\ne = e.match('config_player.link = \"(.+?)\"')[1];\nwindow.HTMLOUT.usepost('https://api.plusvip.net/fetch','link='+e,h,false);\n</script>\n\n</body>\n</html>"
+    },
+    {
+      "pre": "<!DOCTYPE html>\n<html>\n<body>\n\n<script>\nh = '[]';\ne = '",
+      "post": "';\ne = atob(e);\ne = e.match('\"link\":\"(.+?)\"')[1];\nwindow.HTMLOUT.finalizar(e);\n</script>\n\n</body>\n</html>"
     }
   ],
   "nuuuppp": [
