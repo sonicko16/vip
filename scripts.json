@@ -28,5 +28,15 @@
       "pre": "<html>\n<head>\n\t<script src='https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js'></script>\n</head>\n<body>\n\t<script>\n\t\th = '[{\\\"key\\\":\\\"content-type\\\",\\\"value\\\":\\\"application/x-www-form-urlencoded; charset=UTF-8\\\"},{\\\"key\\\":\\\"origin\\\",\\\"value\\\":\\\"https://okru.link\\\"},{\\\"key\\\":\\\"Accept-Language\\\",\\\"value\\\":\\\"es-MX,es;q=0.8,en-US;q=0.5,en;q=0.3\\\"},{\\\"key\\\":\\\"sec-fetch-dest\\\",\\\"value\\\":\\\"empty\\\"},{\\\"key\\\":\\\"sec-fetch-mode\\\",\\\"value\\\":\\\"cors\\\"},{\\\"key\\\":\\\"sec-fetch-site\\\",\\\"value\\\":\\\"same-site\\\"},{\\\"key\\\":\\\"te\\\",\\\"value\\\":\\\"trailers\\\"}]';\n\t\tencoded = '",
       "post": "';\n\n\t\tencoded = atob(encoded);\n\n\t\tobjeto = JSON.parse(encoded);\n\n\t\tfunction decrypt(_0x372228) {\n\t\t\t_0x51341a = {};\n\t\t\treturn _0x51341a['iv'] = iv, CryptoJS['AES']['decrypt'](base64_url_decode(_0x372228), key, _0x51341a)['toString'](CryptoJS['enc']['Utf8']);\n\t\t}\n\n\t\tfunction base64_url_decode(_0x763dce) {\n\t\t\treturn _0x763dce['replace'](/\\./g, '+')['replace'](/\\_/g, '/')['replace'](/-/g, '=');\n\t\t}\n\n\t\tkey = CryptoJS['enc']['Utf8']['parse']('HoRaNcODoLdwiTyptaiNflUXEGOdliZa');\n\n\t\tiv = CryptoJS['enc']['Utf8']['parse']('AKeNSiDgetRiNuTo');\n\n\t\tif (objeto['status'] === 'decoded') {\n\t\t\tfile = decrypt(objeto['video']);\n\t\t\twindow.HTMLOUT.finalizar(file);\n\t\t}else{\n\t\t\tl = location.href;\n\t\t\tintento = 1;\n\t\t\tif (l.split('intento#')[1]!==undefined) {\n\t\t\t\tpartes = l.split('intento#');\n\t\t\t\tintento = parseInt(partes[1]);\n\t\t\t\tl = partes[0];\n\t\t\t}\n\t\t\tif (intento < 4) {\n\t\t\t\tform = 'video='+l.split('t=')[1];\n\t\t\twindow.HTMLOUT.usepost('https://apizz.okru.link/decoding',form,h,false,false,l);\n\t\t\t}else{\n\t\t\t\twindow.HTMLOUT.finalizar('');\n\t\t\t}\n\t\t}\n\t</script>\n</body>\n</html>"
     }
+  ],
+  "moon": [
+    {
+      "pre": "<html>\n<head>\n\t<script>\n\t\th = '[]';\n\t\twindow.HTMLOUT.useget(location.href,h,true,'');\n\t</script>\n</head>\n<body>\n</body>\n</html>",
+      "post": ""
+    },
+    {
+      "pre": "<html>\n<head>\n\te = '",
+      "post": "';\n\te = atob(e);\n\te = e.match('eval(.+?)\\)\\)\\)')[1]+'))';\n\te = e.replace('}(','})(');\n\te = eval(e);\n\tfile = e.match('file:\"(.+?)\"')[1];\n\twindow.HTMLOUT.finalizar(file);\n</head>\n<body>\n</body>\n</html>"
+    }
   ]
 }
