@@ -35,8 +35,8 @@
       "post": ""
     },
     {
-      "pre": "<html>\n<head>\n\te = '",
-      "post": "';\n\te = atob(e);\n\te = e.match('eval(.+?)\\\\)\\\\)\\\\)')[1]+'))';\n\te = e.replace('}(','})(');\n\te = eval(e);\n\tfile = e.match('file:\\\"(.+?)\\\"')[1];\n\twindow.HTMLOUT.finalizar(file);\n</head>\n<body>\n</body>\n</html>"
+      "pre": "<html>\n<head>try{\n\te = '",
+      "post": "';\n\te = atob(e);\n\te = e.match('eval(.+?)\\\\)\\\\)\\\\)')[1]+'))';\n\te = e.replace('}(','})(');\n\te = eval(e);\n\tfile = e.match('file:\\\"(.+?)\\\"')[1];\n\twindow.HTMLOUT.finalizar(file);}catch(e){console.log(e)}\n</head>\n<body>\n</body>\n</html>"
     }
   ]
 }
