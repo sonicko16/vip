@@ -21,7 +21,7 @@
   ],
   "vip": [
     {
-      "pre": "<!DOCTYPE html>\n<html>\n<body>\n\t<script>\n\t\th = '[]';\n\t\tform = 'video='+location.href.split('t=')[1];\n\t\twindow.HTMLOUT.usepost('https://apizz.okru.link/decoding',form,h,false,true,location.href);\n\t</script>\n</body>\n</html>",
+      "pre": "<!DOCTYPE html>\n<html>\n<body>\n\t<script>\n\t\th = '[{\\\"key\\\":\\\"content-type\\\",\\\"value\\\":\\\"application/x-www-form-urlencoded; charset=UTF-8\\\"},{\\\"key\\\":\\\"origin\\\",\\\"value\\\":\\\"https://okru.link\\\"},{\\\"key\\\":\\\"Accept-Language\\\",\\\"value\\\":\\\"es-MX,es;q=0.8,en-US;q=0.5,en;q=0.3\\\"},{\\\"key\\\":\\\"sec-fetch-dest\\\",\\\"value\\\":\\\"empty\\\"},{\\\"key\\\":\\\"sec-fetch-mode\\\",\\\"value\\\":\\\"cors\\\"},{\\\"key\\\":\\\"sec-fetch-site\\\",\\\"value\\\":\\\"same-site\\\"},{\\\"key\\\":\\\"te\\\",\\\"value\\\":\\\"trailers\\\"}]';\n\t\tform = 'video='+location.href.split('t=')[1];\n\t\twindow.HTMLOUT.usepost('https://apizz.okru.link/decoding',form,h,false,true,location.href);\n\t</script>\n</body>\n</html>",
       "post": ""
     },
     {
