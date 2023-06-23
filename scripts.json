@@ -1,8 +1,12 @@
 {
   "moe": [
     {
+      "pre": "<html>\n<head>\n\t<script>\n\t\th = '[]';\n\t\twindow.HTMLOUT.useget(location.href,h,true,'');\n\t</script>\n</head>\n<body>\n</body>\n</html>",
+      "post": ""
+    },
+    {
       "pre": "<!DOCTYPE html>\n<html>\n<body>\n\n<script>\nh = '[]';\ne = '",
-      "post": "';\n\te = atob(e);\n\tm = e.match('=\\'(.+?sources.+?)\\'')[1];\n\te = e.match('config_player.link = \"(.+?)\"')[1];\n\twindow.HTMLOUT.usepost('https://plusvip.net'+m,'link='+e,h,false,true);\n</script>\n\n</body>\n</html>"
+      "post": "';\n\te = atob(e);\n\tm = e.match('=\\'(.+?sources.+?)\\'')[1];\n\te = e.match('config_player.link = \"(.+?)\"')[1];\n\twindow.HTMLOUT.usepost('https://plusvip.net'+m,'link='+e,h,false,true,'');\n</script>\n\n</body>\n</html>"
     },
     {
       "pre": "<!DOCTYPE html>\n<html>\n<body>\n\n<script>\nh = '[]';\ne = '",
