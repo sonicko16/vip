@@ -42,5 +42,15 @@
       "pre": "<html>\n<head>\n\t<script>\n\t\te = '",
       "post": "';\n\t\te = atob(e);\n\t\te = e.match('eval(.+?)\\\\)\\\\)\\\\)')[1]+'))';\n\t\te = e.replace('}(','})(');\n\t\te = eval(e);\n\t\tfile = e.match('file:\\\"(.+?)\\\"')[1];\n\t\twindow.HTMLOUT.finalizar(file);\n\t</script>\n</head>\n<body>\n</body>\n</html>"
     }
+  ],
+  "esplay": [
+    {
+      "pre": "<html>\n\t<head>\n\t\t<script>\n\t\t\th = '[]';\n\t\t\tlink = location.href;\n\t\t\tlink = link.replace('.io/player.html#','.one/video/');\n\t\t\twindow.HTMLOUT.useget(link,h,true,'');\n\t\t</script>\n\t</head>\n\t<body>\n\t</body>\n</html>",
+      "post": ""
+    },
+    {
+      "pre": "<html>\n\t<head>\n\t\t<script>\n\t\t\tencoded = '",
+      "post": "';\n\t\t\tencoded = atob(encoded);\n\t\t\tlink = encoded.match('file\\\": \\\"(.+?)\\\"')[1];\n\t\t\twindow.HTMLOUT.finalizar(link);\n\t\t</script>\n\t</head>\n\t<body>\n\t</body>\n</html>"
+    }
   ]
 }
