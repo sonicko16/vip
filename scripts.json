@@ -52,5 +52,15 @@
       "pre": "<html>\n\t<head>\n\t\t<script>\n\t\t\tencoded = '",
       "post": "';\n\t\t\tencoded = atob(encoded);\n\t\t\tlink = encoded.match('file\":\"(.+?)\"')[1];\n\t\t\twindow.HTMLOUT.finalizar(link);\n\t\t</script>\n\t</head>\n\t<body>\n\t</body>\n</html>"
     }
+  ],
+  "dood": [
+    {
+      "pre": "<html>\n\t<head>\n\t\t<script>\n\t\t\th = '[]';\n\t\t\tlink = location.href;\n\t\t\twindow.HTMLOUT.useget(link,h,true,'');\n\t\t</script>\n\t</head>\n\t<body>\n\t</body>\n</html>",
+      "post": ""
+    },
+    {
+      "pre": "<html>\n\t<head>\n\t\t<script>\n\t\t\tencoded = '",
+      "post": "';\n\t\t\tencoded = atob(encoded);\n\t\t\tlink = encoded.match('file\":\"(.+?)\"')[1];\n\t\t\twindow.HTMLOUT.finalizar(link);\n\t\t</script>\n\t</head>\n\t<body>\n\t</body>\n</html>"
+    }
   ]
 }
