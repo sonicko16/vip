@@ -10,7 +10,7 @@
     },
     {
       "pre": "<!DOCTYPE html>\n<html>\n<body>\n\n<script>\nh = '[]';\ne = '",
-      "post": "';\ne = atob(e);\ne = e.match('\"link\":\"(.+?)\"')[1];\ne = e.replace(' ','');\nwindow.HTMLOUT.finalizar(e);\n</script>\n\n</body>\n</html>"
+      "post": "';\ne = atob(e);\ne = e.match('\"link\":\"(.+?)\"')[1];\ne = e.replace(' ','');\ne = e.replaceAll('\\','');\nwindow.HTMLOUT.finalizar(e);\n</script>\n\n</body>\n</html>"
     }
   ],
   "nuuuppp": [
