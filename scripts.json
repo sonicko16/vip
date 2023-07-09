@@ -60,7 +60,7 @@
     },
     {
       "pre": "<html>\n\t<head>\n\t\t<script src='https://code.jquery.com/jquery-3.4.1.min.js' integrity='sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=' crossorigin='anonymous'></script>\n\t\t<script>\n\t\t\tencoded = '",
-      "post": "';\n\t\t\tencoded = atob(encoded);\n\t\t\tlink = encoded.match('get\\(\\'(/pass_md5.+?)\\',')[1];\n\t\t\tlink = location.host + link;\n\t\t\tscript = 'function makePlay()'+encoded.match('function makePlay\\(\\)(.+?)};')[1]+'};';\n\t\t\teval(script);\n\t\t\t$.get(link, function(data) {\n\t\t\t\twindow.HTMLOUT.finalizar(data + makePlay());\n\t\t\t});\n\t\t</script>\n\t</head>\n\t<body>\n\t</body>\n</html>"
+      "post": "';\n\t\t\tencoded = atob(encoded);\n\t\t\tlink = encoded.match('get\\\\(\\'(/pass_md5.+?)\\',')[1];\n\t\t\tlink = location.host + link;\n\t\t\tscript = 'function makePlay()'+encoded.match('function makePlay\\(\\)(.+?)};')[1]+'};';\n\t\t\teval(script);\n\t\t\t$.get(link, function(data) {\n\t\t\t\twindow.HTMLOUT.finalizar(data + makePlay());\n\t\t\t});\n\t\t</script>\n\t</head>\n\t<body>\n\t</body>\n</html>"
     }
   ]
 }
