@@ -17,5 +17,8 @@
 	"url5":"&mode=",
 	"url6":"&hash=",
 	"url7":"&g-recaptcha-response=",
+	"replace":"likessb.com",
+	"normal":true,
+	"normal2":true,
 	"h":[]
 }
