@@ -19,6 +19,6 @@
 	"url7":"&g-recaptcha-response=",
 	"replace":"likessb.com",
 	"normal":true,
-	"normal2":true,
+	"normal2":false,
 	"h":[]
 }
