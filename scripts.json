@@ -35,7 +35,7 @@
   ],
   "moon": [
     {
-      "pre": "<html>\n<head>\n\t<script>\n\t\th = '[]';\n\t\twindow.HTMLOUT.useget(location.href,h,true,'');\n\t</script>\n</head>\n<body>\n</body>\n</html>",
+      "pre": "<html>\n<head>\n\t<script>\n\t\th = '[]';\n\t\twindow.HTMLOUT.useget(location.href.replace('/v/','/e/'),h,true,'');\n\t</script>\n</head>\n<body>\n</body>\n</html>",
       "post": ""
     },
     {
