@@ -5,7 +5,7 @@
       "post": ""
     },
     {
-      "pre": "<!DOCTYPE html>\n<html>\n<body>\n\n<script>\nh = '[]';\ne = '",
+      "pre": "<!DOCTYPE html>\n<html>\n<body>\n\n\t<script>\n\th = '[{\\\"key\\\":\\\"Referer\\\",\\\"value\\\":\\\"'+location.href+'\\\"},{\\\"key\\\":\\\"Origin\\\",\\\"value\\\":\\\"'+location.origin+'\\\"}]';\n\te = '",
       "post": "';\n\te = atob(e);\n\tm = e.match('=\\'(.+?sources.+?)\\'')[1];\n\te = e.match('config_player.link = \"(.+?)\"')[1];\n\twindow.HTMLOUT.usepost('https://plusvip.net'+m,'link='+e,h,false,true,'');\n</script>\n\n</body>\n</html>"
     },
     {
