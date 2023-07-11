@@ -5,12 +5,12 @@
       "post": ""
     },
     {
-      "pre": "<!DOCTYPE html>\n<html>\n<body>\n\n\t<script>\n\th = '[{\\\"key\\\":\\\"Referer\\\",\\\"value\\\":\\\"'+location.href+'\\\"},{\\\"key\\\":\\\"Origin\\\",\\\"value\\\":\\\"'+location.origin+'\\\"}]';\n\te = '",
-      "post": "';\n\te = atob(e);\n\tm = e.match('=\\'(.+?sources.+?)\\'')[1];\n\te = e.match('config_player.link = \"(.+?)\"')[1];\n\twindow.HTMLOUT.usepost('https://plusvip.net'+m,'link='+e,h,false,true,'');\n</script>\n\n</body>\n</html>"
+      "pre": "<!DOCTYPE html>\n<html>\n<body>\n\n\t<script>\n\t\ttry{\n\t\t\th = '[{\\\"key\\\":\\\"Referer\\\",\\\"value\\\":\\\"'+location.href+'\\\"},{\\\"key\\\":\\\"Origin\\\",\\\"value\\\":\\\"'+location.origin+'\\\"}]';\n\t\t\te = '",
+      "post": "';\n\t\t\te = atob(e);\n\t\t\tm = e.match('=\\'(.+?sources.+?)\\'')[1];\n\t\t\te = e.match('config_player.link = \"(.+?)\"')[1];\n\t\t\twindow.HTMLOUT.usepost('https://plusvip.net'+m,'link='+e,h,false,true,'');\n\t\t}catch(error){\n\t\t\twindow.HTMLOUT.finalizar('');\n\t\t}\n</script>\n\n</body>\n</html>"
     },
     {
-      "pre": "<!DOCTYPE html>\n<html>\n<body>\n\n<script>\nh = '[]';\ne = '",
-      "post": "';\ne = atob(e);\ne = e.match('\"link\":\"(.+?)\"')[1];\ne = e.replace(' ','');\ne = e.replaceAll('\\\\','');\nwindow.HTMLOUT.finalizar(e);\n</script>\n\n</body>\n</html>"
+      "pre": "<!DOCTYPE html>\n<html>\n<body>\n\n\t<script>\n\t\ttry{\n\t\t\th = '[]';\n\t\t\te = '",
+      "post": "';\n\t\t\te = atob(e);\n\t\t\te = e.match('\"link\":\"(.+?)\"')[1];\n\t\t\te = e.replace(' ','');\n\t\t\te = e.replaceAll('\\\\','');\n\t\t\twindow.HTMLOUT.finalizar(e);\n\t\t}catch(error){\n\t\t\twindow.HTMLOUT.finalizar('');\n\t\t}\n</script>\n\n</body>\n</html>"
     }
   ],
   "nuuuppp": [
