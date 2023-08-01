@@ -1,6 +1,6 @@
 {
 	"headers":[],
 	"onfinish":"",
-	"html":"<HTML>\n\t<head>\n\t\t\t<script type='text/javascript'>\n\t\t\t\th = '[{\"key\":\"origin\",\"value\":\"https://nuuuppp.cloud\"},{\"key\":\"referer\",\"value\":\"https://nuuuppp.cloud/\"}]';\n\t\t\t\tencoded = '",
-	"html2":"';\n\t\t\t\tdecoded = window.atob(encoded);\n\t\t\t\tscript = decoded.match('<script>\\n(.+?)\\n\\t\\t  <\\/script>')[1];\n\t\t\t\tscript2 = decoded.match('<script>\\n(.+?),t=')[1]+';';\n\t\t\t\tresults = [...script2.matchAll('var(.+?)=')];\n\t\t\t\tlinkScript = 'url = ' + results[0][1] + '+\"?s=\"+' + results[1][1] + ';';\n\t\t\t\tscript3 = 'if(url.includes(\\'.fun\\')){window.HTMLOUT.getError();}else{window.HTMLOUT.processURL(url,h);}';\n\t\t\t\tscriptcompleto = script + script2 + linkScript + script3;\n\t\t\t\teval(scriptcompleto);\n\t\t\t</script>\n\t</head>\n\t<body></body>\n</HTML>"
+	"html":"<html>\n<head>\n\t<script >\n\t\ttry{\n\t\t\te = '",
+	"html2":"';\n\t\t\te = atob(e);\n\t\t\te = e.match('eval(.+?)\\)\\)\\)')[1]+'))';\n\t\t\te = e.replace('}(','})(');\n\t\t\te = eval(e);\n\t\t\tfile = e.match('file:\"(.+?)\"')[1];\n\t\t\twindow.HTMLOUT.processURL(file,'[]');\n\t\t}catch(error){\n\t\t\twindow.HTMLOUT.getError();\n\t\t}\n\t</script>\n</head>\n<body>\n</body>\n</html>"
 }
