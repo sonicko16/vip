@@ -45,7 +45,7 @@
   ],
   "esplay": [
     {
-      "pre": "<html>\n\t<head>\n\t\t<script>\n\t\t\th = '[]';\n\t\t\tlink = location.href;\n\t\t\tlink = link.replace('.io/player.html#','.one/video/');\n\t\t\twindow.HTMLOUT.useget(link,h,true,'');\n\t\t</script>\n\t</head>\n\t<body>\n\t</body>\n</html>",
+      "pre": "<html>\n\t<head>\n\t\t<script>\n\t\t\th = '[]';\n\t\t\tlink = location.href;\n\t\t\tlink = link.replace('.io/','.one/');\n\t\t\tlink = link.replace('.one/player.html#','.one/video/');\n\t\t\twindow.HTMLOUT.useget(link,h,true,'');\n\t\t</script>\n\t</head>\n\t<body>\n\t</body>\n</html>",
       "post": ""
     },
     {
