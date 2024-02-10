@@ -35,6 +35,8 @@
 	"sbM3u8":true,
 	"loadInMain":false,
 	"alfrente":false,
+	"universalSearch":"https://raw.githubusercontent.com/sonicko16/hiden-content/master/API%27s/universaldata.txt",
+	"universalScripts":"https://raw.githubusercontent.com/sonicko16/vip/master/universalscripts.txt",
 	"zeusRegex":"uknown4now",
 	"aresRegex":"uknown4now",
 	"pegasusRegex":"uknown4now",
