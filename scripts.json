@@ -66,7 +66,7 @@
     },
     {
       "pre": "<html>\n<head>\n\t<script >\n\t\ttry{\n\t\t\te = '",
-      "post": "';\n\t\t\te = atob(e);\n\t\t\te = e.match('eval(.+?)\\\\)\\\\)\\\\)')[1]+'))';\n\t\t\te = e.replace('}(','})(');\n\t\t\te = eval(e);\n\t\t\tfile = e.match('file:\\\"(.+?)\\\"')[1];\n\t\t\twindow.HTMLOUT.finalizar(file);\n\t\t}catch(error){\n\t\t\twindow.HTMLOUT.finalizar('');\n\t\t}\n\t</script>\n</head>\n<body>\n</body>\n</html>"
+      "post": "';\n\t\t\te = atob(e);\n\t\t\tfile = e.match('file:\\\"(.+?)\\\"')[1];\n\t\t\twindow.HTMLOUT.finalizar(file);\n\t\t}catch(error){\n\t\t\twindow.HTMLOUT.finalizar('');\n\t\t}\n\t</script>\n</head>\n<body>\n</body>\n</html>"
     }
   ]
 }
