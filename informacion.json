@@ -37,7 +37,7 @@
 	"alfrente":false,
 	"universalSearch":"https://raw.githubusercontent.com/sonicko16/hiden-content/master/API%27s/universaldata.txt",
 	"universalScripts":"https://raw.githubusercontent.com/sonicko16/vip/master/universalscripts.txt",
-	"zeusRegex":"filemoon|embedmoon",
+	"zeusRegex":"filemoon|embedmoon|filelions",
 	"aresRegex":"uknown4now",
 	"pegasusRegex":"uknown4now",
 	"poseidonRegex":"uknown4now",
