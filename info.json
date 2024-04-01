@@ -25,7 +25,7 @@
 	"certificate":"Si",
 	"sbstreamHost":"sbstream",
 	"sbHostRegex":"sbstream",
-	"nuuhostregex":"voe.sx",
+	"nuuhostregex":"streamwish|wishembed|embedwish|wishfast|obeywish",
 	"doodRegex":"dood|d0o0d|d0000d",
 	"vipregex":"okru.link",
 	"moonRegex":"filemoon|embedmoon|moonembed|fmembed",
