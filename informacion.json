@@ -25,7 +25,7 @@
 	"certificate":"Si",
 	"sbstreamHost":"sbstream",
 	"sbHostRegex":"sbstream",
-	"nuuhostregex":"streamwish|wishembed|embedwish|wishfast|obeywish",
+	"nuuhostregex":"voe.sx|vincentincludesuccessful|brookethoughi",
 	"doodRegex":"dood|d0o0d|d0000d",
 	"vipregex":"okru.link",
 	"moonRegex":"uknown4now",
@@ -47,7 +47,7 @@
 	"hydraRegex":"uknown4now",
 	"odinRegex":"uknown4now",
 	"krakenRegex":"uknown4now",
-	"ultraRegex":"voe.sx|vincentincludesuccessful|brookethoughi|vidhide|filelions",
+	"ultraRegex":"streamwish|wishembed|embedwish|wishfast|obeywish|vidhide|filelions",
 	"deprecateds":["esplay","okru.link","sbstream","plusvip.net","waaw.to","waaw.tv","hqq.to","hqq.tv","netu.to","netu.tv","zplayer.live","rapidvid.to","rapidvideo.com","openload","streamango.com","verystream.com","tutumeme.net","openplay.vip","p2p.fembad.co","vadacloud.com","pelisgratis.live","youtube.com"],
 	"obsoletos":["esplay","okru.link","sbstream","plusvip.net","service-r.html","tomatomatela","waaw.to","waaw.tv","hqq.to","hqq.tv","netu.to","netu.tv","zplayer.live","rapidvid.to","rapidvideo.com","openload","streamango.com","verystream.com","tutumeme.net","openplay.vip","p2p.fembad.co","vadacloud.com","pelisgratis.live","youtube.com"]
 }
