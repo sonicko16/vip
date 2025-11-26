@@ -56,7 +56,7 @@
     },
     {
       "pre": "<html>\n\t<head>\n\t\t<script src='https://code.jquery.com/jquery-3.4.1.min.js' integrity='sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=' crossorigin='anonymous'></script>\n\t\t<script>try{\n\t\t\tencoded = '",
-      "post": "';\n\t\t\tencoded = atob(encoded);\n\t\t\tsrc = encoded.match('src: data(.+?)\\\\)')[1];\n\t\t\tlink = encoded.match('get\\\\(\\'(/pass_md5.+?)\\',')[1];\n\t\t\tlink = location.origin + link;\n\tregex = /function makePlay\\(\\)([\\s\\S]+?)\\};/;\t\tscript = 'function makePlay()'+encoded.match(regex)[1]+'};';\n\t\t\teval(script);\n\t\t\t$.get(link, function(data) {\n\t\t\t\tif(src.includes('makePlay')){\n\t\t\t\t\tdata+= makePlay();\n\t\t\t\t}\n\t\t\t\twindow.HTMLOUT.finalizar(data);\n\t\t\t});\n}catch(error){window.HTMLOUT.finalizar('');}\t\t</script>\n\t</head>\n\t<body>\n\t</body>\n</html>"
+      "post": "';\n\t\t\tencoded = atob(encoded);\n\t\t\tsrc = encoded.match('src: data(.+?)\\\\)')[1];\n\t\t\tlink = encoded.match('get\\\\(\\'(/pass_md5.+?)\\',')[1];\n\t\t\tlink = location.origin + link;\n\tregex = /function makePlay\\(\\)([\\s\\S]+?)\\};/;\t\tscript = 'function makePlay()'+encoded.match(regex)[1]+'};';\n\t\t\teval(script);\n\t\t\t$.get(link, function(data) {\n\t\t\t\tif(src.includes('makePlay')){\n\t\t\t\t\tdata+= makePlay();\n\t\t\t\t}\n\t\t\t\twindow.HTMLOUT.finalizar(data);\n\t\t\t});\n}catch(error){console.log(error);window.HTMLOUT.finalizar('');}\t\t</script>\n\t</head>\n\t<body>\n\t</body>\n</html>"
     }
   ],
   "sbwatch": [
