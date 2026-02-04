@@ -20,7 +20,7 @@
 	"pflink":"https://hiden-content.pages.dev//API's/pelisfileinfo.json",
 	"oplink":"https://vip-10y.pages.dev/oceaninfo.json",
 	"getterscripts":"https://vip-10y.pages.dev/scripts.json",
-	"searchscripts":"https://raw.githubusercontent.com/sonicko16/hiden-content/master/API%27s/searchscripts.json",
+	"searchscripts":"https://hiden-content.pages.dev/API%27s/searchscripts.json",
 	"pelisfileHost":"pelisplay.info",
 	"certificate":"Si",
 	"sbstreamHost":"sbstream",
