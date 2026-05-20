@@ -5,7 +5,7 @@
 	"mensaje":"\nMensaje: Al abrir la nueva actualización se te pedirá desinstalar está versión, solo presiona el botón \"Desinstalar\" que aparece en el mensaje y nosotros nos encargamos\n\n\nChangelog:\n-Ahora somos Film Plus\n-Se agregaron más servidores\n-Las notificaciones muestran las novedades\n-Se corrigieron algunos errores",
 	"paquete":"com.dpsteam.filmplus",
 	"anteriores":"com.thisislaw.randomapp",
-	"key":"6f88c34b0a6e5f4da96032485395a0ea",
+	"key":"4955eaf9face10c63346cd97b0a2894b",
 	"obligatoria":true,
 	"fembedHost":"vanfem.com",
 	"turboHost":"tomatomatela",
