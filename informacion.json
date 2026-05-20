@@ -5,7 +5,7 @@
 	"mensaje":"\nEs una pequeña revisión de nuestra última actualización. Lamentamos las molestias.\n\nSi no puedes actualizar:\n1.-Presiona navegador\n2.-Descarga el apk de la actualización\n3.-Desinstala la version instalada\n4.-Instala la actualización manualmente\n\nChangelog:\n-Se corrigieron algunos errores",
 	"paquete":"com.dpsteam.filmplus",
 	"anteriores":"com.filmlegacy.slupaf",
-	"key":"6f88c34b0a6e5f4da96032485395a0ea&append_to_response=images,videos",
+	"key":"6f88c34b0a6e5f4da96032485395a0ea&append_to_response=keywords",
 	"obligatoria":true,
 	"fembedHost":"vanfem.com",
 	"turboHost":"tomatomatela",
