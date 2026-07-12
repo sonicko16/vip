@@ -30,6 +30,8 @@
 	"vipregex":"okru.link",
 	"moonRegex":"uknown4now",
 	"share":"https://film-app.github.io/plus/",
+	"cast":"com.dgpssolutions.zeusvideocaster",
+	"cpublished":"",
 	"nuulink":"https://raw.githubusercontent.com/sonicko16/vip/master/nuuinfo.json",
 	"sbslink":"https://raw.githubusercontent.com/sonicko16/vip/master/sbScript.json",
 	"hublink":"https://raw.githubusercontent.com/sonicko16/vip/master/otroinfo.json",
