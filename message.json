@@ -1,0 +1,32 @@
+{
+  "messageid": "promo_verano_2026_v1",
+  "show": 24,
+  "cancelable": true,
+  "permadismissible": true,
+  "dialogo_remoto": [
+    {
+      "tipo": "texto",
+      "formato": "markdown",
+      "valor": "## 🍿 ¡Fin de semana de Estrenos!\n\nHemos agregado más de **50 películas en calidad 4K** a nuestro catálogo. Prepárate para el maratón perfecto.\n\n*   🎬 Acción y Aventura\n*   👻 Terror clásico\n*   😂 Comedias familiares"
+    },
+    {
+      "tipo": "imagen",
+      "valor": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?q=80&w=1000&auto=format&fit=crop"
+    },
+    {
+      "tipo": "texto",
+      "formato": "markdown",
+      "valor": "No te pierdas de nada. Únete a nuestra comunidad para pedir tus películas favoritas y enterarte primero de las novedades."
+    },
+    {
+      "tipo": "boton",
+      "texto": "Ver Catálogo VIP",
+      "url": "https://play.google.com/store/apps"
+    },
+    {
+      "tipo": "boton",
+      "texto": "Únete a Telegram",
+      "url": "https://t.me/telegram"
+    }
+  ]
+}
