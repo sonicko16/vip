@@ -1,32 +1,24 @@
 {
-  "messageid": "promo_verano_2026_v1",
-  "show": 24,
-  "cancelable": true,
-  "permadismissible": true,
+  "messageid": "anuncio_unico_v2",
+  "cancelable": false,
+  "permadismissible": false,
+  "unique": true,
+  "tempo": 10,
+  "show": 0,
   "dialogo_remoto": [
     {
-      "tipo": "texto",
-      "formato": "markdown",
-      "valor": "## 🍿 ¡Fin de semana de Estrenos!\n\nHemos agregado más de **50 películas en calidad 4K** a nuestro catálogo. Prepárate para el maratón perfecto.\n\n*   🎬 Acción y Aventura\n*   👻 Terror clásico\n*   😂 Comedias familiares"
-    },
-    {
       "tipo": "imagen",
-      "valor": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?q=80&w=1000&auto=format&fit=crop"
+      "url": "https://film-app.github.io/plus/img/patrocinio.png",
+      "altura": 150
     },
     {
       "tipo": "texto",
-      "formato": "markdown",
-      "valor": "No te pierdas de nada. Únete a nuestra comunidad para pedir tus películas favoritas y enterarte primero de las novedades."
+      "contenido": "### ¡Gracias por usar Film Plus!\n\nEste proyecto se mantiene vivo gracias a tu apoyo. Por favor considera visitar la tienda de nuestro patrocinador para mantener los servidores funcionando.\n\n*Nota: Este mensaje desaparecerá automáticamente en unos segundos y no lo volverás a ver.*"
     },
     {
       "tipo": "boton",
-      "texto": "Ver Catálogo VIP",
-      "url": "https://play.google.com/store/apps"
-    },
-    {
-      "tipo": "boton",
-      "texto": "Únete a Telegram",
-      "url": "https://t.me/telegram"
+      "texto": "Visitar Patrocinador",
+      "url": "https://film-app.github.io/plus/donar"
     }
   ]
 }
