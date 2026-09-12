@@ -1,9 +1,9 @@
 {
-  "messageid": "anuncio_unico_v1",
+  "messageid": "anuncio_unico_v2",
   "cancelable": false,
   "permadismissible": false,
   "unique": true,
-  "tempo": 5,
+  "tempo": 10,
   "show": 0,
   "dialogo_remoto": [
     {
