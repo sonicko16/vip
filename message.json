@@ -1,24 +1,44 @@
 {
-  "messageid": "anuncio_unico_v2",
-  "cancelable": false,
-  "permadismissible": false,
-  "unique": true,
-  "tempo": 10,
-  "show": 0,
-  "dialogo_remoto": [
+  "id": "invite_zeus_beta_01",
+  "cancelable": true,
+  "permadismissible": true,
+  "unique": false,
+  "tempo": 3,
+  "blocks": [
     {
-      "tipo": "imagen",
-      "url": "https://film-app.github.io/plus/img/patrocinio.png",
-      "altura": 150
+      "type": "image",
+      "url": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&q=80&w=600&h=300",
+      "height": 150
     },
     {
-      "tipo": "texto",
-      "contenido": "### ¡Gracias por usar Film Plus!\n\nEste proyecto se mantiene vivo gracias a tu apoyo. Por favor considera visitar la tienda de nuestro patrocinador para mantener los servidores funcionando.\n\n*Nota: Este mensaje desaparecerá automáticamente en unos segundos y no lo volverás a ver.*"
+      "type": "text",
+      "content": "¡Descubre el poder de Zeus! ⚡",
+      "size": 22,
+      "align": "center",
+      "bold": true,
+      "color": "#FFD700"
     },
     {
-      "tipo": "boton",
-      "texto": "Visitar Patrocinador",
-      "url": "https://film-app.github.io/plus/donar"
+      "type": "text",
+      "content": "Estamos reclutando pioneros para la **Beta Cerrada** de nuestra nueva app hermana: **Zeus Video Caster**.\n\nUna herramienta ultrarrápida para transmitir tus películas y series favoritas directo a tu Smart TV, Roku o Chromecast sin interrupciones.\n\nBeneficios exclusivos:\n🚀 **Cero anuncios** durante la fase beta.\n📺 **Compatibilidad total** con TV Boxes.\n👑 **Acceso anticipado** a las funciones premium.",
+      "size": 16,
+      "align": "left",
+      "color": "#F5F5F5"
+    },
+    {
+      "type": "text",
+      "content": "*Cupos estrictamente limitados.*",
+      "size": 12,
+      "align": "center",
+      "bold": false,
+      "color": "#FF5252"
+    },
+    {
+      "type": "button",
+      "text": "⚡ QUIERO SER BETA TESTER ⚡",
+      "url": "https://t.me/tu_grupo_de_telegram_o_formulario",
+      "bg": "#FF9800",
+      "color": "#FFFFFF"
     }
   ]
 }
