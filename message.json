@@ -1,44 +1,23 @@
 {
-  "id": "invite_zeus_beta_01",
+  "messageid": "invite_zeus_beta_01",
   "cancelable": true,
   "permadismissible": true,
   "unique": false,
   "tempo": 3,
-  "blocks": [
+  "dialogo_remoto": [
     {
-      "type": "image",
-      "url": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&q=80&w=600&h=300",
-      "height": 150
+      "tipo": "imagen",
+      "valor": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&q=80&w=600&h=300"
     },
     {
-      "type": "text",
-      "content": "¡Descubre el poder de Zeus! ⚡",
-      "size": 22,
-      "align": "center",
-      "bold": true,
-      "color": "#FFD700"
+      "tipo": "texto",
+      "formato": "markdown",
+      "valor": "## ¡Descubre el poder de Zeus! ⚡\n\nEstamos reclutando pioneros para la **Beta Cerrada** de nuestra nueva app hermana: **Zeus Video Caster**.\n\nUna herramienta ultrarrápida para transmitir tus películas y series favoritas directo a tu Smart TV, Roku o Chromecast sin interrupciones.\n\n**Beneficios exclusivos:**\n🚀 Cero anuncios durante la fase beta.\n📺 Compatibilidad total con TV Boxes.\n👑 Acceso anticipado a funciones premium.\n\n*Cupos estrictamente limitados.*"
     },
     {
-      "type": "text",
-      "content": "Estamos reclutando pioneros para la **Beta Cerrada** de nuestra nueva app hermana: **Zeus Video Caster**.\n\nUna herramienta ultrarrápida para transmitir tus películas y series favoritas directo a tu Smart TV, Roku o Chromecast sin interrupciones.\n\nBeneficios exclusivos:\n🚀 **Cero anuncios** durante la fase beta.\n📺 **Compatibilidad total** con TV Boxes.\n👑 **Acceso anticipado** a las funciones premium.",
-      "size": 16,
-      "align": "left",
-      "color": "#F5F5F5"
-    },
-    {
-      "type": "text",
-      "content": "*Cupos estrictamente limitados.*",
-      "size": 12,
-      "align": "center",
-      "bold": false,
-      "color": "#FF5252"
-    },
-    {
-      "type": "button",
-      "text": "⚡ QUIERO SER BETA TESTER ⚡",
-      "url": "https://t.me/tu_grupo_de_telegram_o_formulario",
-      "bg": "#FF9800",
-      "color": "#FFFFFF"
+      "tipo": "boton",
+      "texto": "⚡ QUIERO SER BETA TESTER ⚡",
+      "url": "https://t.me/tu_grupo_de_telegram_o_formulario"
     }
   ]
 }
