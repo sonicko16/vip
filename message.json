@@ -1,23 +1,26 @@
 {
-  "messageid": "invite_zeus_beta_01",
-  "cancelable": true,
-  "permadismissible": true,
-  "unique": false,
-  "tempo": 3,
-  "dialogo_remoto": [
-    {
-      "tipo": "imagen",
-      "valor": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&q=80&w=600&h=300"
-    },
-    {
-      "tipo": "texto",
-      "formato": "markdown",
-      "valor": "## ¡Descubre el poder de Zeus! ⚡\n\nEstamos reclutando pioneros para la **Beta Cerrada** de nuestra nueva app hermana: **Zeus Video Caster**.\n\nUna herramienta ultrarrápida para transmitir tus películas y series favoritas directo a tu Smart TV, Roku o Chromecast sin interrupciones.\n\n**Beneficios exclusivos:**\n🚀 Cero anuncios durante la fase beta.\n📺 Compatibilidad total con TV Boxes.\n👑 Acceso anticipado a funciones premium.\n\n*Cupos estrictamente limitados.*"
-    },
-    {
-      "tipo": "boton",
-      "texto": "⚡ QUIERO SER BETA TESTER ⚡",
-      "url": "https://t.me/tu_grupo_de_telegram_o_formulario"
-    }
-  ]
+    "messageid": "invite_zeus_beta_01",
+    "show": 0,
+    "cancelable": false,
+    "permadismissible": true,
+    "unique": false,
+    "tempo": 3,
+    "dialogo_remoto": [
+        {
+            "tipo": "imagen",
+            "valor": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&q=80&w=600&h=300"
+        },
+        {
+            "tipo": "texto",
+            "formato": "markdown",
+            "valor": "## ¡Descubre el poder de Zeus! ⚡\n\nEstamos reclutando pioneros para la **Beta Cerrada** de nuestra nueva app hermana: **Zeus Video Caster**.\n\nUna herramienta ultrarrápida para transmitir tus películas y series favoritas directo a tu Smart TV, Roku o Chromecast sin interrupciones.\n\n**Beneficios exclusivos:**\n🚀 Cero anuncios durante la fase beta.\n📺 Compatibilidad total con TV Boxes.\n👑 Acceso anticipado a funciones premium.\n\n*Cupos estrictamente limitados.*"
+        },
+        {
+            "tipo": "boton",
+            "texto": "⚡ QUIERO SER BETA TESTER ⚡",
+            "url": "https://t.me/tu_grupo_de_telegram_o_formulario",
+            "color_fondo": "#850000",
+            "color_texto": "#fff70a"
+        }
+    ]
 }
