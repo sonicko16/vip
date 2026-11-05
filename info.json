@@ -4,7 +4,7 @@
 	"actual":"1.4.7",
 	"mensaje":"Si tienes problemas para instalar la actualización puedes visitar:\n\nhttps://film-app.github.io/plus\n\nAhí podrás descargar el apk oficial.\n\nChangelog:\n\n-Se corrgieron errores de estabilidad.\n-Se agregó nuevamente 1DM como opción de descarga.\n-Se mejoraron las descargas directas.",
 	"paquete":"com.dpsteam.filmplus",
-	"anteriores":"com.filmlegacy.slupaf",
+	"anteriores":"com.thisislaw.randomapp",
 	"key":"6f88c34b0a6e5f4da96032485395a0ea",
 	"obligatoria":true,
 	"fembedHost":"vanfem.com",
